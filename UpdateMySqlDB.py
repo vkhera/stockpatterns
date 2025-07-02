@@ -1,0 +1,181 @@
+import csv
+import mysql.connector
+import json
+from cryptography.fernet import Fernet
+
+# Load DB config from config.json with encrypted password
+def load_db_config(config_path='config.json'):
+    with open(config_path, 'r') as f:
+        config = json.load(f)
+    key = config['key'].encode()
+    fernet = Fernet(key)
+    db_password = fernet.decrypt(config['mysql_password'].encode()).decode()
+    db_config = {
+        'host': config['mysql_host'],
+        'user': config['mysql_user'],
+        'password': db_password,
+        'database': config['mysql_db']
+    }
+    return db_config
+
+def insert_robinhood_holdings(
+    csv_file='holdings_report.csv',
+    table_name='robinhood_holdings',
+    db_params=None
+):
+    """
+    Create the robinhood_holdings table if not exists and insert records from the given CSV file.
+    Args:
+        csv_file (str): Path to the Robinhood holdings CSV file.
+        table_name (str): Name of the MySQL table to insert into.
+        db_params (dict): Optional DB connection params (default: use db_config).
+    """
+    schema = f"""
+    CREATE TABLE IF NOT EXISTS {table_name} (
+        Symbol VARCHAR(32),
+        Quantity VARCHAR(32),
+        Price VARCHAR(32),
+        Equity VARCHAR(32),
+        Percent_Change VARCHAR(32),
+        Type VARCHAR(32),
+        Beta VARCHAR(16),
+        Trend VARCHAR(32)
+    )
+    """
+    insert_stmt = f"""
+    INSERT INTO {table_name} (
+        Symbol, Quantity, Price, Equity, Percent_Change, Type, Beta, Trend
+    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+    """
+    db_cfg = db_params if db_params else load_db_config()
+    conn = mysql.connector.connect(**db_cfg)
+    cursor = conn.cursor()
+    cursor.execute(schema)
+    with open(csv_file, newline='', encoding='utf-8') as f:
+        reader = csv.reader(f)
+        header = next(reader)  # skip header
+        for row in reader:
+            if len(row) < 8:
+                row += [''] * (8 - len(row))
+            cursor.execute(insert_stmt, row)
+    conn.commit()
+    cursor.close()
+    conn.close()
+    print(f"Robinhood records from {csv_file} inserted into {table_name} successfully.")
+
+def insert_brokerage_holdings(
+    csv_file='holdings_cleaned.csv',
+    table_name='holdings',
+    db_params=None
+):
+    """
+    Create the holdings table if not exists and insert records from the given CSV file.
+    Args:
+        csv_file (str): Path to the brokerage holdings CSV file.
+        table_name (str): Name of the MySQL table to insert into.
+        db_params (dict): Optional DB connection params (default: use db_config).
+    """
+    schema = f"""
+    CREATE TABLE IF NOT EXISTS {table_name} (
+        Ticker VARCHAR(32),
+        Symbol_Description VARCHAR(128),
+        Empty1 VARCHAR(8),
+        Quantity VARCHAR(32),
+        Price VARCHAR(32),
+        Days_Change VARCHAR(32),
+        Value VARCHAR(32),
+        Days_Value_Change VARCHAR(32),
+        Unrealized_Gain_Loss VARCHAR(64),
+        Last_Updated VARCHAR(32),
+        Empty2 VARCHAR(8),
+        Beta VARCHAR(16),
+        Trend VARCHAR(32),
+        Exported_On VARCHAR(32)
+    )
+    """
+    insert_stmt = f"""
+    INSERT INTO {table_name} (
+        Ticker, Symbol_Description, Empty1, Quantity, Price, Days_Change, Value,
+        Days_Value_Change, Unrealized_Gain_Loss, Last_Updated, Empty2, Beta, Trend, Exported_On
+    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    """
+    db_cfg = db_params if db_params else load_db_config()
+    conn = mysql.connector.connect(**db_cfg)
+    cursor = conn.cursor()
+    cursor.execute(schema)
+    with open(csv_file, newline='', encoding='utf-8') as f:
+        reader = csv.reader(f)
+        header = next(reader)  # skip header
+        for row in reader:
+            if len(row) < 14:
+                row += [''] * (14 - len(row))
+            cursor.execute(insert_stmt, row)
+    conn.commit()
+    cursor.close()
+    conn.close()
+    print(f"Brokerage records from {csv_file} inserted into {table_name} successfully.")
+
+def delete_holdings_table(table_name='holdings', db_params=None):
+    """
+    Delete the specified holdings table from the MySQL database if it exists.
+    Args:
+        table_name (str): Name of the table to delete.
+        db_params (dict): Optional DB connection params (default: use db_config).
+    """
+    db_cfg = db_params if db_params else load_db_config()
+    conn = mysql.connector.connect(**db_cfg)
+    cursor = conn.cursor()
+    cursor.execute(f"DROP TABLE IF EXISTS {table_name}")
+    conn.commit()
+    cursor.close()
+    conn.close()
+    print(f"Table '{table_name}' deleted (if it existed).")
+
+# Optionally, keep the main() for CLI usage, but now only for both tables
+def main():
+#    delete_holdings_table('holdings')
+    # Insert holdings_cleaned.csv into 'holdings' table
+    table_name = 'holdings'
+    csv_file = 'holdings_cleaned.csv'
+    table_schema = f"""
+    CREATE TABLE IF NOT EXISTS {table_name} (
+        Ticker VARCHAR(32),
+        Symbol_Description VARCHAR(128),
+        Empty1 VARCHAR(8),
+        Quantity VARCHAR(32),
+        Price VARCHAR(32),
+        Days_Change VARCHAR(32),
+        Value VARCHAR(32),
+        Days_Value_Change VARCHAR(32),
+        Unrealized_Gain_Loss VARCHAR(64),
+        Last_Updated VARCHAR(32),
+        Empty2 VARCHAR(8),
+        Beta VARCHAR(16),
+        Trend VARCHAR(32),
+        Exported_On VARCHAR(32)
+    )
+    """
+    insert_stmt = f"""
+    INSERT INTO {table_name} (
+        Ticker, Symbol_Description, Empty1, Quantity, Price, Days_Change, Value,
+        Days_Value_Change, Unrealized_Gain_Loss, Last_Updated, Empty2, Beta, Trend, Exported_On
+    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    """
+    db_config = load_db_config()
+    conn = mysql.connector.connect(**db_config)
+    cursor = conn.cursor()
+    cursor.execute(table_schema)
+    with open(csv_file, newline='', encoding='utf-8') as f:
+        reader = csv.reader(f)
+        header = next(reader)  # skip header
+        for row in reader:
+            if len(row) < 14:
+                row += [''] * (14 - len(row))
+            cursor.execute(insert_stmt, row)
+    conn.commit()
+    cursor.close()
+    conn.close()
+    print(f"Records from {csv_file} inserted into {table_name} successfully.")
+
+if __name__ == "__main__":
+    main()
