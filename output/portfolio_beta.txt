@@ -1,0 +1,65 @@
+Portfolio Beta Calculation Details
+---------------------------------
+Symbol   Equity       Weight  Beta
+  NVDA 21891.26 1.256790e-01 2.122
+   LIT   489.32 2.809214e-03   NaN
+ GOOGL  4216.98 2.420993e-02 1.014
+  ISRG  3294.41 1.891340e-02 1.676
+   RNW  1655.91 9.506675e-03 0.888
+  ARKK  4329.87 2.485803e-02   NaN
+  PANW   572.63 3.287502e-03 0.973
+    AI   309.12 1.774676e-03 2.035
+  OPEN    61.00 3.502045e-04 2.761
+  EURL   274.40 1.575346e-03   NaN
+   DRN  4900.00 2.813118e-02   NaN
+   UBX     0.03 1.722317e-07 1.057
+  YINN   275.32 1.580628e-03   NaN
+  RYLD  1499.99 8.611529e-03   NaN
+  AMZU  3789.67 2.175671e-02   NaN
+  CDNS  1978.74 1.136006e-02 0.984
+   TNA  3690.00 2.118450e-02   NaN
+  MBLY  1913.93 1.098798e-02 0.468
+  AWAY   221.20 1.269922e-03   NaN
+  IBIT 28571.64 1.640314e-01   NaN
+  MSFU  4980.07 2.859087e-02   NaN
+  AAPU  2366.03 1.358351e-02   NaN
+  OKLO  5360.00 3.077207e-02 0.596
+  SERV  1078.00 6.188860e-03   NaN
+  GRNY  4573.92 2.625914e-02   NaN
+  RCAT   353.99 2.032277e-03 0.764
+  KORU   201.00 1.153953e-03   NaN
+  FNGU 71335.50 4.095412e-01   NaN
+
+Total Equity: 174183.93
+
+Weighted Beta Calculation (Weight * Beta for each holding):
+NVDA: 0.1257 * 2.1220 = 0.2667
+LIT: 0.0028 * nan = nan
+GOOGL: 0.0242 * 1.0140 = 0.0245
+ISRG: 0.0189 * 1.6760 = 0.0317
+RNW: 0.0095 * 0.8880 = 0.0084
+ARKK: 0.0249 * nan = nan
+PANW: 0.0033 * 0.9730 = 0.0032
+AI: 0.0018 * 2.0350 = 0.0036
+OPEN: 0.0004 * 2.7610 = 0.0010
+EURL: 0.0016 * nan = nan
+DRN: 0.0281 * nan = nan
+UBX: 0.0000 * 1.0570 = 0.0000
+YINN: 0.0016 * nan = nan
+RYLD: 0.0086 * nan = nan
+AMZU: 0.0218 * nan = nan
+CDNS: 0.0114 * 0.9840 = 0.0112
+TNA: 0.0212 * nan = nan
+MBLY: 0.0110 * 0.4680 = 0.0051
+AWAY: 0.0013 * nan = nan
+IBIT: 0.1640 * nan = nan
+MSFU: 0.0286 * nan = nan
+AAPU: 0.0136 * nan = nan
+OKLO: 0.0308 * 0.5960 = 0.0183
+SERV: 0.0062 * nan = nan
+GRNY: 0.0263 * nan = nan
+RCAT: 0.0020 * 0.7640 = 0.0016
+KORU: 0.0012 * nan = nan
+FNGU: 0.4095 * nan = nan
+
+Portfolio Beta: 0.3754

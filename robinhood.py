@@ -269,6 +269,89 @@ class RobinhoodPortfolio:
         print("Portfolio risk metrics exported to portfolio_beta.txt and portfolio_std.txt.")
         return portfolio_beta, portfolio_std
 
+    def analyze_sentiment_with_ollama(self, symbol, headline, summary, ollama_url, logf, models=None, csv_log_path=None):
+        """
+        Call Ollama API sequentially for multiple model ids for a news item. Logs request, response, and timing to a CSV file.
+        Returns the majority sentiment out of the 3 calls. If all 3 are different, returns the last call's response.
+        """
+        import requests
+        import time
+        import csv as pycsv
+        from collections import Counter
+        if models is None:
+            models = ["gemma3:1b", "mistral:7b", "llama3.2:latest"]
+        prompt = f"Analyze the following news for sentiment (positive, negative, neutral) for the stock {symbol}. Respond with one word: positive, negative, or neutral.\nNews: {headline} {summary}"
+        results = {}
+        responses = []
+        csv_rows = []
+        for model_id in models:
+            start_time = time.time()
+            req_payload = {"model": model_id, "prompt": prompt, "stream": False}
+            logf.write(f"\n{'='*40}\nSYMBOL: {symbol}\nMODEL: {model_id}\nPROMPT:\n{prompt}\n")
+            req_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(start_time))
+            try:
+                response = requests.post(ollama_url, json=req_payload)
+                resp_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
+                logf.write(f"RESPONSE RAW:\n{response.text}\n")
+                if response.ok:
+                    result = response.json()
+                    analysis = result.get('response', '').strip().lower()
+                else:
+                    analysis = 'unknown'
+            except Exception as e:
+                analysis = f'error: {e}'
+                resp_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
+            exec_time = time.time() - start_time
+            results[model_id] = analysis
+            responses.append(analysis)
+            # majority_response will be determined after all responses are collected
+            csv_rows.append([
+                symbol,
+                model_id,
+                req_time,
+                prompt,
+                resp_time,
+                analysis,
+                '',  # placeholder for majority, to be filled after loop
+                f"{exec_time:.3f}"
+            ])
+        # Determine majority response
+        filtered = [resp for resp in responses if resp in ("positive", "negative", "neutral")]
+        if filtered:
+            count = Counter(filtered)
+            most_common = count.most_common()
+            if len(most_common) == 1:
+                majority_response = most_common[0][0]
+            elif len(most_common) > 1 and most_common[0][1] > 1:
+                majority_response = most_common[0][0]
+            else:
+                majority_response = responses[-1]
+        else:
+            majority_response = responses[-1] if responses else 'unknown'
+
+        # Fill in majority response for all rows
+        for row in csv_rows:
+            row[6] = majority_response
+
+        # Always write to llm_response_record.csv in output folder
+        output_dir = os.path.join(os.path.dirname(__file__), 'output')
+        llm_csv_path = os.path.join(output_dir, 'llm_response_record.csv')
+        write_header = not os.path.exists(llm_csv_path)
+        with open(llm_csv_path, 'a', newline='', encoding='utf-8') as csvfile:
+            writer = pycsv.writer(csvfile)
+            if write_header:
+                writer.writerow(["Symbol", "Model", "Request Time", "Prompt", "Response Time", "Analysis", "Majority", "Exec Time (s)"])
+            writer.writerows(csv_rows)
+        # Write to CSV log if path provided (legacy/optional)
+        if csv_log_path:
+            write_header2 = not os.path.exists(csv_log_path)
+            with open(csv_log_path, 'a', newline='', encoding='utf-8') as csvfile:
+                writer = pycsv.writer(csvfile)
+                if write_header2:
+                    writer.writerow(["Symbol", "Model", "Request Time", "Prompt", "Response Time", "Analysis", "Majority", "Exec Time (s)"])
+                writer.writerows(csv_rows)
+        return majority_response
+
     def fetch_and_analyze_news(self, holdings_csv=None, news_output=None, ollama_url='http://localhost:11434/api/generate', ollama_log=None):
         import requests
         import json as pyjson
@@ -300,7 +383,6 @@ class RobinhoodPortfolio:
                     if not published_at:
                         continue
                     try:
-                        # Try parsing ISO format, fallback to date only
                         pub_dt = datetime.fromisoformat(published_at.replace('Z', '+00:00'))
                     except Exception:
                         try:
@@ -313,18 +395,7 @@ class RobinhoodPortfolio:
                     summary = news.get('summary', '')
                     url = news.get('url', '')
                     # Analyze sentiment using Ollama
-                    try:
-                        prompt = f"Analyze the following news for sentiment (positive, negative, neutral) for the stock {symbol}. Respond with one word: positive, negative, or neutral.\nNews: {headline} {summary}"
-                        logf.write(f"\n{'='*40}\nSYMBOL: {symbol}\nPROMPT:\n{prompt}\n")
-                        response = requests.post(ollama_url, json={"model": "llama3.2:latest", "prompt": prompt, "stream": False})
-                        logf.write(f"RESPONSE RAW:\n{response.text}\n")
-                        if response.ok:
-                            result = response.json()
-                            analysis = result.get('response', '').strip().lower()
-                        else:
-                            analysis = 'unknown'
-                    except Exception as e:
-                        analysis = f'error: {e}'
+                    analysis = self.analyze_sentiment_with_ollama(symbol, headline, summary, ollama_url, logf)
                     if analysis != 'neutral':
                         f.write(f"Headline: {headline}\nSummary: {summary}\nURL: {url}\nSentiment: {analysis}\n\n")
                         wrote_any = True

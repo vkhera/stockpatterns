@@ -1,0 +1,7 @@
+robin-stocks
+pandas
+yfinance
+cryptography
+numpy
+scipy
+requests

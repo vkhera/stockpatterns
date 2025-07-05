@@ -1,0 +1,1134 @@
+
+========================================
+SYMBOL: NVDA
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Here's Why This Nvidia Partner's Stock Surged in June 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:45:00.5564436Z","response":"Positive\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,57484,7172,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,5715,236789,236751,8922,1174,82681,32300,236789,236751,13827,6486,3701,528,5142,236743,106,107,105,4368,107,48084,107],"total_duration":430575700,"load_duration":110276800,"prompt_eval_count":58,"prompt_eval_duration":245060800,"eval_count":3,"eval_duration":74729900}
+
+========================================
+SYMBOL: NVDA
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Here's Why This Nvidia Partner's Stock Surged in June 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:45:10.923522Z","response":" Neutral (This analysis is based on the information provided about a partner's stock surge. The sentiment towards NVDA itself isn't explicitly stated.)","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,28238,6337,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,4771,29510,29481,5083,1619,1186,15178,1283,29150,29510,29481,12316,6789,3328,1065,4980,29473,4,29473,3915,1097,2418,1093,4028,6411,1117,3586,1124,1040,2639,4625,1452,1032,7745,29510,29481,6524,24816,29491,1183,22558,5851,28238,6337,4605,3925,29510,29475,16724,10024,3742],"total_duration":8337475000,"load_duration":32958400,"prompt_eval_count":59,"prompt_eval_duration":2168036700,"eval_count":33,"eval_duration":6134868200}
+
+========================================
+SYMBOL: NVDA
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Here's Why This Nvidia Partner's Stock Surged in June 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:45:13.8216197Z","response":"Positive","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,25464,6486,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,5810,596,8595,1115,62467,32413,596,12937,8242,3640,304,5651,220,128009,128006,78191,128007,271,36590],"total_duration":868628700,"load_duration":73707400,"prompt_eval_count":72,"prompt_eval_duration":701849800,"eval_count":2,"eval_duration":92478200}
+
+========================================
+SYMBOL: NVDA
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: VanEck Semiconductor ETF Sees Strong Performance and Inflows 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:45:16.2193479Z","response":"Positive","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,57484,7172,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,11800,236788,932,127999,78165,126314,27717,19791,532,799,54985,236743,106,107,105,4368,107,48084],"total_duration":379152800,"load_duration":127821300,"prompt_eval_count":55,"prompt_eval_duration":212655600,"eval_count":2,"eval_duration":38170200}
+
+========================================
+SYMBOL: NVDA
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: VanEck Semiconductor ETF Sees Strong Performance and Inflows 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:45:20.6879456Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,28238,6337,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,8415,29517,1374,10665,4558,1438,2578,1181,13120,1859,1042,24284,20627,1072,1328,1902,4379,29473,4,29473,3915,1097,2418],"total_duration":2432417000,"load_duration":36356200,"prompt_eval_count":60,"prompt_eval_duration":1876333400,"eval_count":4,"eval_duration":518073300}
+
+========================================
+SYMBOL: NVDA
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: VanEck Semiconductor ETF Sees Strong Performance and Inflows 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:45:23.685351Z","response":"Neutral.","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,25464,6486,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,13000,36,377,79534,54163,1369,288,27191,21304,323,763,39240,220,128009,128006,78191,128007,271,88007,13],"total_duration":964247800,"load_duration":70882400,"prompt_eval_count":72,"prompt_eval_duration":711883500,"eval_count":3,"eval_duration":180411800}
+
+========================================
+SYMBOL: NVDA
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: AMD’s AI Surge: Can It Overtake Nvidia? 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:45:26.1200623Z","response":"Positive","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,57484,7172,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,42155,236858,236751,12498,102476,236787,3199,1030,708,2515,873,82681,236881,236743,106,107,105,4368,107,48084],"total_duration":406490200,"load_duration":126943600,"prompt_eval_count":57,"prompt_eval_duration":240453000,"eval_count":2,"eval_duration":38285000}
+
+========================================
+SYMBOL: NVDA
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: AMD’s AI Surge: Can It Overtake Nvidia? 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:45:30.5691011Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,28238,6337,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,28605,29577,29481,16875,6789,1258,29515,3186,1429,1219,2803,1389,1186,15178,1283,29572,29473,4,29473,3915,1097,2418],"total_duration":2415369800,"load_duration":13638500,"prompt_eval_count":59,"prompt_eval_duration":1883373400,"eval_count":4,"eval_duration":516695400}
+
+========================================
+SYMBOL: NVDA
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: AMD’s AI Surge: Can It Overtake Nvidia? 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:45:33.4286971Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,25464,6486,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,25300,753,15592,57257,25,3053,1102,507,1653,731,62467,30,220,128009,128006,78191,128007,271,88007],"total_duration":832726400,"load_duration":54578800,"prompt_eval_count":72,"prompt_eval_duration":686049500,"eval_count":2,"eval_duration":91530800}
+
+========================================
+SYMBOL: NVDA
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: The Best Stocks to Invest $1,000 In Right Now 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:45:35.8401485Z","response":"Neutral","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,57484,7172,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,669,8890,81973,531,10703,609,236770,236764,236771,236771,236771,799,12488,4224,236743,106,107,105,4368,107,20809],"total_duration":382363900,"load_duration":113323000,"prompt_eval_count":58,"prompt_eval_duration":230397200,"eval_count":2,"eval_duration":38101100}
+
+========================================
+SYMBOL: NVDA
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: The Best Stocks to Invest $1,000 In Right Now 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:45:40.1137266Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,28238,6337,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,1183,6238,1430,8480,1066,12374,1197,29508,29493,29502,29502,29502,1328,10322,3729,29473,4,29473,3915,1097,2418],"total_duration":2242504500,"load_duration":10325100,"prompt_eval_count":58,"prompt_eval_duration":1712219800,"eval_count":4,"eval_duration":518863300}
+
+========================================
+SYMBOL: NVDA
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: The Best Stocks to Invest $1,000 In Right Now 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:45:42.9928505Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,25464,6486,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,578,7252,80336,311,13038,400,16,11,931,763,10291,4800,220,128009,128006,78191,128007,271,88007],"total_duration":840032800,"load_duration":66630300,"prompt_eval_count":72,"prompt_eval_duration":671573300,"eval_count":2,"eval_duration":101323000}
+
+========================================
+SYMBOL: NVDA
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Better Artificial Intelligence Stock: Nvidia vs. Meta Platforms 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:45:45.3992942Z","response":"Positive","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,57484,7172,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,27026,45556,28243,13827,236787,82681,7728,236761,31145,123747,236743,106,107,105,4368,107,48084],"total_duration":364783400,"load_duration":102677500,"prompt_eval_count":54,"prompt_eval_duration":216698900,"eval_count":2,"eval_duration":44807700}
+
+========================================
+SYMBOL: NVDA
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Better Artificial Intelligence Stock: Nvidia vs. Meta Platforms 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:45:50.3056431Z","response":" Positive (for Nvidia)","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,28238,6337,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,19630,4719,15541,23859,12316,29515,1186,15178,1283,8477,29491,25735,21786,29481,29473,4,29473,8970,3236,1093,2160,1186,15178,1283,29499],"total_duration":2880711800,"load_duration":9439100,"prompt_eval_count":57,"prompt_eval_duration":1471728600,"eval_count":9,"eval_duration":1398475100}
+
+========================================
+SYMBOL: NVDA
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Better Artificial Intelligence Stock: Nvidia vs. Meta Platforms 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:45:53.0893808Z","response":"Positive","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,25464,6486,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,24327,59294,22107,12937,25,62467,6296,13,16197,96209,220,128009,128006,78191,128007,271,36590],"total_duration":763308900,"load_duration":81271500,"prompt_eval_count":70,"prompt_eval_duration":589846300,"eval_count":2,"eval_duration":91656600}
+
+========================================
+SYMBOL: NVDA
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Greed Mode On: Why Tesla, Nvidia, Palantir And Bitcoin Plays Could Rip 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:45:55.5405436Z","response":"Negative","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,57484,7172,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,11986,524,27737,2154,236787,8922,35620,236764,82681,236764,6203,638,583,1452,24242,103765,28344,62952,236743,106,107,105,4368,107,63702],"total_duration":418028700,"load_duration":107287300,"prompt_eval_count":62,"prompt_eval_duration":273572000,"eval_count":2,"eval_duration":36663800}
+
+========================================
+SYMBOL: NVDA
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Greed Mode On: Why Tesla, Nvidia, Palantir And Bitcoin Plays Could Rip 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:46:00.3803708Z","response":" Positive","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,28238,6337,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,1188,3584,22516,2186,29515,5083,26455,2988,29493,1186,15178,1283,29493,4955,1208,1129,1783,23206,2409,1516,14723,1167,1276,29473,4,29473,8970,3236],"total_duration":2814176800,"load_duration":12467000,"prompt_eval_count":66,"prompt_eval_duration":2448459700,"eval_count":3,"eval_duration":352708500}
+
+========================================
+SYMBOL: NVDA
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Greed Mode On: Why Tesla, Nvidia, Palantir And Bitcoin Plays Could Rip 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:46:03.4851923Z","response":"Negative","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,25464,6486,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,13842,291,14904,1952,25,8595,28298,11,62467,11,11165,519,404,1628,13428,77265,16910,36537,220,128009,128006,78191,128007,271,39589],"total_duration":1078944300,"load_duration":74787600,"prompt_eval_count":78,"prompt_eval_duration":910215600,"eval_count":2,"eval_duration":93941100}
+
+========================================
+SYMBOL: NVDA
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Nvidia Nears $4T: Will It Break Out Next Week? - NVIDIA - Benzinga 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:46:06.0155007Z","response":"Positive\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,57484,7172,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,82681,646,7233,609,236812,236774,236787,4291,1030,26192,5641,12067,13444,236881,753,77670,753,5947,15383,236746,236743,106,107,105,4368,107,48084,107],"total_duration":494540900,"load_duration":109355700,"prompt_eval_count":64,"prompt_eval_duration":310219000,"eval_count":3,"eval_duration":73454300}
+
+========================================
+SYMBOL: NVDA
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Nvidia Nears $4T: Will It Break Out Next Week? - NVIDIA - Benzinga 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:46:10.8321785Z","response":" Positive","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,28238,6337,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,1186,15178,1283,1186,6708,1197,29549,29506,29515,3643,1429,15870,5423,9348,11201,29572,1155,1186,7568,8176,1155,4889,15276,29476,29473,4,29473,8970,3236],"total_duration":2781949500,"load_duration":13323600,"prompt_eval_count":67,"prompt_eval_duration":2417123100,"eval_count":3,"eval_duration":350274500}
+
+========================================
+SYMBOL: NVDA
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Nvidia Nears $4T: Will It Break Out Next Week? - NVIDIA - Benzinga 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:46:14.011411Z","response":"Positive","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,25464,6486,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,62467,452,7596,400,19,51,25,4946,1102,15996,4470,9479,10563,30,482,34661,482,7505,20994,64,220,128009,128006,78191,128007,271,36590],"total_duration":1150024300,"load_duration":58070500,"prompt_eval_count":80,"prompt_eval_duration":996781300,"eval_count":2,"eval_duration":94087900}
+
+========================================
+SYMBOL: NVDA
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Nvidia's $4T Countdown: Will Next Week's Chart Print A Trillion-Dollar Breakout? 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:46:16.6368208Z","response":"Positive\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,57484,7172,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,82681,236789,236751,609,236812,236774,168768,236787,4291,12067,13444,236789,236751,32269,13105,562,1733,25374,236772,94087,26192,725,236881,236743,106,107,105,4368,107,48084,107],"total_duration":584811500,"load_duration":114131200,"prompt_eval_count":67,"prompt_eval_duration":391674900,"eval_count":3,"eval_duration":77886100}
+
+========================================
+SYMBOL: NVDA
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Nvidia's $4T Countdown: Will Next Week's Chart Print A Trillion-Dollar Breakout? 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:46:21.5554215Z","response":" Positive","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,28238,6337,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,1186,15178,1283,29510,29481,1197,29549,29506,4933,4022,29515,3643,9348,11201,29510,29481,17691,14049,1098,2087,23970,29501,29525,21356,15870,1174,29572,29473,4,29473,8970,3236],"total_duration":2884682500,"load_duration":29068600,"prompt_eval_count":70,"prompt_eval_duration":2499403800,"eval_count":3,"eval_duration":355640600}
+
+========================================
+SYMBOL: NVDA
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: Nvidia's $4T Countdown: Will Next Week's Chart Print A Trillion-Dollar Breakout? 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:46:24.8140326Z","response":"Positive.","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,25464,6486,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,62467,596,400,19,51,87486,25,4946,9479,10563,596,21964,8377,362,1183,15068,9607,21999,15996,412,30,220,128009,128006,78191,128007,271,36590,13],"total_duration":1226282600,"load_duration":74356200,"prompt_eval_count":81,"prompt_eval_duration":969986300,"eval_count":3,"eval_duration":181571900}
+
+========================================
+SYMBOL: NVDA
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: If I Could Load Up on Any Artificial Intelligence Stock, It Would Be This One (Hint: It's Not Nvidia) 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:46:27.3768275Z","response":"Neutral","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,57484,7172,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,1637,564,28344,16959,5827,580,7129,45556,28243,13827,236764,1030,21284,2199,1174,3656,568,17099,236787,1030,236789,236751,3790,82681,236768,236743,106,107,105,4368,107,20809],"total_duration":533085900,"load_duration":118972300,"prompt_eval_count":69,"prompt_eval_duration":373035200,"eval_count":2,"eval_duration":39507300}
+
+========================================
+SYMBOL: NVDA
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: If I Could Load Up on Any Artificial Intelligence Stock, It Would Be This One (Hint: It's Not Nvidia) 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:46:33.0004585Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,28238,6337,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,1815,1083,14723,12692,5092,1124,5690,4719,15541,23859,12316,29493,1429,12080,2507,1619,3155,1093,18943,29515,1429,29510,29481,3048,1186,15178,1283,29499,29473,4,29473,3915,1097,2418],"total_duration":3594793100,"load_duration":10472500,"prompt_eval_count":71,"prompt_eval_duration":3037562300,"eval_count":4,"eval_duration":546245900}
+
+========================================
+SYMBOL: NVDA
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: If I Could Load Up on Any Artificial Intelligence Stock, It Would Be This One (Hint: It's Not Nvidia) 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:46:36.35371Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,25464,6486,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,1442,358,16910,9069,3216,389,5884,59294,22107,12937,11,1102,19418,2893,1115,3861,320,28085,25,1102,596,2876,62467,8,220,128009,128006,78191,128007,271,88007],"total_duration":1329702900,"load_duration":69187400,"prompt_eval_count":84,"prompt_eval_duration":1168319900,"eval_count":2,"eval_duration":90407400}
+
+========================================
+SYMBOL: NVDA
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: US Plans AI Chip Curbs on Malaysia, Thailand Over China Concerns 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:46:38.8047027Z","response":"Negative","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,57484,7172,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,2590,48139,12498,45180,11094,1886,580,22081,236764,17254,7178,5818,161601,236743,106,107,105,4368,107,63702],"total_duration":427092000,"load_duration":148468200,"prompt_eval_count":57,"prompt_eval_duration":236820200,"eval_count":2,"eval_duration":41243700}
+
+========================================
+SYMBOL: NVDA
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: US Plans AI Chip Curbs on Malaysia, Thailand Over China Concerns 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:46:43.3665128Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,28238,6337,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,2991,2409,1277,16875,1457,1276,6887,2584,1124,26396,29493,24329,6003,5845,2093,29485,1941,29481,29473,4,29473,3915,1097,2418],"total_duration":2541469300,"load_duration":9153500,"prompt_eval_count":61,"prompt_eval_duration":2013362200,"eval_count":4,"eval_duration":517885100}
+
+========================================
+SYMBOL: NVDA
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock NVDA. Respond with one word: positive, negative, or neutral.
+News: US Plans AI Chip Curbs on Malaysia, Thailand Over China Concerns 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:46:46.3056974Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,25464,6486,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,2326,35695,15592,32013,13182,1302,389,28796,11,30567,6193,5734,52347,82,220,128009,128006,78191,128007,271,88007],"total_duration":909313200,"load_duration":65507800,"prompt_eval_count":74,"prompt_eval_duration":752061200,"eval_count":2,"eval_duration":90993400}
+
+========================================
+SYMBOL: GOOGL
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google's AI Overviews Features Sparks New Antitrust Battle With European Publishers: Report 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:46:49.1948396Z","response":"Negative\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,16861,3692,236798,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,6475,236789,236751,12498,7178,13084,25772,113976,1799,228126,22413,18742,3227,6693,57792,236787,8708,236743,106,107,105,4368,107,63702,107],"total_duration":671765600,"load_duration":108328600,"prompt_eval_count":62,"prompt_eval_duration":486134900,"eval_count":3,"eval_duration":76756000}
+
+========================================
+SYMBOL: GOOGL
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google's AI Overviews Features Sparks New Antitrust Battle With European Publishers: Report 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:46:55.6430811Z","response":" Negative","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,15812,29530,5495,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,6950,29510,29481,16875,6003,13832,21668,2438,8464,2218,4589,1047,20610,14479,3094,7160,20443,1172,29515,8199,29473,4,29473,12933,1965],"total_duration":4412617800,"load_duration":12956000,"prompt_eval_count":64,"prompt_eval_duration":4008190100,"eval_count":3,"eval_duration":390907600}
+
+========================================
+SYMBOL: GOOGL
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google's AI Overviews Features Sparks New Antitrust Battle With European Publishers: Report 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:46:59.3836283Z","response":"Negative","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,12890,46,3910,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,5195,596,15592,6193,5182,20289,94894,1561,6898,85971,16506,3161,7665,72714,25,8423,220,128009,128006,78191,128007,271,39589],"total_duration":1712652800,"load_duration":77268100,"prompt_eval_count":77,"prompt_eval_duration":1543115000,"eval_count":2,"eval_duration":91152700}
+
+========================================
+SYMBOL: GOOGL
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google Faces AI Overviews Backlash from European Publishers 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:47:01.8297847Z","response":"Negative\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,16861,3692,236798,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,6475,134783,12498,7178,13084,7429,47829,699,6693,57792,236743,106,107,105,4368,107,63702,107],"total_duration":390436500,"load_duration":113390600,"prompt_eval_count":55,"prompt_eval_duration":197494100,"eval_count":3,"eval_duration":79165800}
+
+========================================
+SYMBOL: GOOGL
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google Faces AI Overviews Backlash from European Publishers 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:47:05.5997262Z","response":" Negative","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,15812,29530,5495,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,6950,1169,2857,16875,6003,13832,7563,29482,1797,1245,7160,20443,1172,29473,4,29473,12933,1965],"total_duration":1751049400,"load_duration":20423900,"prompt_eval_count":57,"prompt_eval_duration":1380695700,"eval_count":3,"eval_duration":349309500}
+
+========================================
+SYMBOL: GOOGL
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google Faces AI Overviews Backlash from European Publishers 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:47:08.3700258Z","response":"Negative","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,12890,46,3910,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,5195,52326,15592,6193,5182,6984,25713,505,7665,72714,220,128009,128006,78191,128007,271,39589],"total_duration":742185100,"load_duration":83446200,"prompt_eval_count":71,"prompt_eval_duration":567715300,"eval_count":2,"eval_duration":90493200}
+
+========================================
+SYMBOL: GOOGL
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google faces EU antitrust complaint over AI Overviews as independent publishers seek action - Reuters 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:47:10.7915762Z","response":"Negative","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,16861,3692,236798,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,6475,13799,11514,137684,18169,1024,12498,7178,13084,618,6829,45847,6370,2970,753,49653,236743,106,107,105,4368,107,63702],"total_duration":401468100,"load_duration":116836400,"prompt_eval_count":61,"prompt_eval_duration":246811700,"eval_count":2,"eval_duration":37121900}
+
+========================================
+SYMBOL: GOOGL
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google faces EU antitrust complaint over AI Overviews as independent publishers seek action - Reuters 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:47:15.2990448Z","response":" Negative","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,15812,29530,5495,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,6950,10958,12949,3493,1047,20610,22873,1522,16875,6003,13832,1158,7894,10862,1172,6463,3760,1155,2066,1097,1172,29473,4,29473,12933,1965],"total_duration":2474140800,"load_duration":9686700,"prompt_eval_count":65,"prompt_eval_duration":2114581000,"eval_count":3,"eval_duration":349306900}
+
+========================================
+SYMBOL: GOOGL
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google faces EU antitrust complaint over AI Overviews as independent publishers seek action - Reuters 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:47:18.342264Z","response":"Negative","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,12890,46,3910,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,5195,12580,10013,3276,85971,12458,927,15592,6193,5182,439,9678,36717,6056,1957,482,23688,220,128009,128006,78191,128007,271,39589],"total_duration":1004425200,"load_duration":71526800,"prompt_eval_count":78,"prompt_eval_duration":841915000,"eval_count":2,"eval_duration":89492700}
+
+========================================
+SYMBOL: GOOGL
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google may be next to settle Trump social media lawsuits after Meta and Musk - report 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:47:20.7707952Z","response":"Negative","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,16861,3692,236798,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,6475,1149,577,2148,531,26068,10337,2777,4009,79494,1308,31145,532,43359,753,2072,236743,106,107,105,4368,107,63702],"total_duration":390151300,"load_duration":107404700,"prompt_eval_count":61,"prompt_eval_duration":240261100,"eval_count":2,"eval_duration":37704300}
+
+========================================
+SYMBOL: GOOGL
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google may be next to settle Trump social media lawsuits after Meta and Musk - report 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:47:25.2637684Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,15812,29530,5495,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,6950,1761,1115,2447,1066,18261,7700,3577,4845,3077,3681,1814,1792,25735,1072,4547,29497,1155,3032,29473,4,29473,3915,1097,2418],"total_duration":2451740800,"load_duration":14388900,"prompt_eval_count":63,"prompt_eval_duration":1906354300,"eval_count":4,"eval_duration":529359300}
+
+========================================
+SYMBOL: GOOGL
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google may be next to settle Trump social media lawsuits after Meta and Musk - report 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:47:28.5137625Z","response":"Neutral.","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,12890,46,3910,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,5195,1253,387,1828,311,25760,3420,3674,3772,43986,1306,16197,323,40638,482,1934,220,128009,128006,78191,128007,271,88007,13],"total_duration":1227012800,"load_duration":60500600,"prompt_eval_count":77,"prompt_eval_duration":982239600,"eval_count":3,"eval_duration":183734300}
+
+========================================
+SYMBOL: GOOGL
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Could This Surprise Company Become Nvidia's Biggest Competitor? 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:47:30.9422721Z","response":"Positive\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,16861,3692,236798,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,28344,1174,122367,6503,82139,82681,236789,236751,144795,25966,2168,236881,236743,106,107,105,4368,107,48084,107],"total_duration":404613900,"load_duration":114026300,"prompt_eval_count":57,"prompt_eval_duration":216582200,"eval_count":3,"eval_duration":73467000}
+
+========================================
+SYMBOL: GOOGL
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Could This Surprise Company Become Nvidia's Biggest Competitor? 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:47:40.4028463Z","response":" Neutral (The headline is speculative and does not provide specific information about Google's performance or impact on the competition.)","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,15812,29530,5495,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,14723,1619,6789,10034,7220,1133,1528,1293,1186,15178,1283,29510,29481,7143,5879,18598,2610,29572,29473,4,29473,3915,1097,2418,1093,1782,2103,1849,1117,1997,21619,1072,2003,1227,3852,3716,2639,1452,6950,29510,29481,5165,1210,5856,1124,1040,9763,3742],"total_duration":7436024800,"load_duration":10597800,"prompt_eval_count":62,"prompt_eval_duration":1939408600,"eval_count":28,"eval_duration":5485320900}
+
+========================================
+SYMBOL: GOOGL
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Could This Surprise Company Become Nvidia's Biggest Competitor? 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:47:43.3393059Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,12890,46,3910,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,16910,1115,85584,8351,51378,62467,596,86621,26517,1960,30,220,128009,128006,78191,128007,271,88007],"total_duration":909072800,"load_duration":52366300,"prompt_eval_count":72,"prompt_eval_duration":746447700,"eval_count":2,"eval_duration":109644100}
+
+========================================
+SYMBOL: GOOGL
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Prediction: 2 Stocks That Will Be Worth More Than Nvidia 5 Years From Now 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:47:45.8362184Z","response":"Positive\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,16861,3692,236798,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,76790,236787,236743,236778,81973,2981,4291,2199,35900,4643,52561,82681,236743,236810,25712,4934,4224,236743,106,107,105,4368,107,48084,107],"total_duration":455892700,"load_duration":103782700,"prompt_eval_count":62,"prompt_eval_duration":275388800,"eval_count":3,"eval_duration":76214700}
+
+========================================
+SYMBOL: GOOGL
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Prediction: 2 Stocks That Will Be Worth More Than Nvidia 5 Years From Now 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:47:50.9910033Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,15812,29530,5495,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,19890,3801,29515,29473,29518,1430,8480,2493,3643,2507,1162,2985,4532,1310,1044,1186,15178,1283,29473,29550,17654,4440,3729,29473,4,29473,3915,1097,2418],"total_duration":3131619100,"load_duration":27538000,"prompt_eval_count":67,"prompt_eval_duration":2508053000,"eval_count":4,"eval_duration":595474000}
+
+========================================
+SYMBOL: GOOGL
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Prediction: 2 Stocks That Will Be Worth More Than Nvidia 5 Years From Now 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:47:54.1533855Z","response":"Negative","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,12890,46,3910,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,62965,25,220,17,80336,3011,4946,2893,37246,4497,34776,62467,220,20,23116,5659,4800,220,128009,128006,78191,128007,271,39589],"total_duration":1118191900,"load_duration":81441400,"prompt_eval_count":78,"prompt_eval_duration":934254900,"eval_count":2,"eval_duration":101337600}
+
+========================================
+SYMBOL: GOOGL
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google Rolls Out Its Newest AI Video Creation Tool 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:47:56.5610453Z","response":"Positive\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,16861,3692,236798,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,6475,74144,5641,9567,1799,598,12498,11994,53637,13474,236743,106,107,105,4368,107,48084,107],"total_duration":376839900,"load_duration":110226900,"prompt_eval_count":55,"prompt_eval_duration":190591400,"eval_count":3,"eval_duration":75516300}
+
+========================================
+SYMBOL: GOOGL
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google Rolls Out Its Newest AI Video Creation Tool 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:48:00.3529215Z","response":" Positive","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,15812,29530,5495,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,6950,13094,29481,5423,8035,2218,1142,16875,13041,1102,15086,13645,29473,4,29473,8970,3236],"total_duration":1755689700,"load_duration":30848400,"prompt_eval_count":56,"prompt_eval_duration":1350634700,"eval_count":3,"eval_duration":373622900}
+
+========================================
+SYMBOL: GOOGL
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google Rolls Out Its Newest AI Video Creation Tool 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:48:03.2188416Z","response":"Neutral.","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,12890,46,3910,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,5195,70710,4470,11699,79797,15592,8519,35386,13782,220,128009,128006,78191,128007,271,88007,13],"total_duration":830333800,"load_duration":51351200,"prompt_eval_count":70,"prompt_eval_duration":597320300,"eval_count":3,"eval_duration":180708000}
+
+========================================
+SYMBOL: GOOGL
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google begins ‘productive’ settlement talks with Trump lawyers, Atlantic says 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:48:05.6192379Z","response":"Neutral","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,16861,3692,236798,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,6475,12502,2141,31522,236858,19960,16592,607,10337,28266,236764,21065,3189,236743,106,107,105,4368,107,20809],"total_duration":375239500,"load_duration":102765700,"prompt_eval_count":58,"prompt_eval_duration":235237700,"eval_count":2,"eval_duration":36637200}
+
+========================================
+SYMBOL: GOOGL
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google begins ‘productive’ settlement talks with Trump lawyers, Atlantic says 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:48:09.6681996Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,15812,29530,5495,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,6950,11426,4243,6414,1263,29577,14462,15834,1163,7700,20499,29493,17111,3395,29473,4,29473,3915,1097,2418],"total_duration":2025982900,"load_duration":11460300,"prompt_eval_count":58,"prompt_eval_duration":1488088400,"eval_count":4,"eval_duration":525394700}
+
+========================================
+SYMBOL: GOOGL
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google begins ‘productive’ settlement talks with Trump lawyers, Atlantic says 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:48:12.5615543Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,12890,46,3910,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,5195,12302,3451,34370,529,17516,13739,449,3420,21866,11,23179,2795,220,128009,128006,78191,128007,271,88007],"total_duration":870830400,"load_duration":63433400,"prompt_eval_count":74,"prompt_eval_duration":715048500,"eval_count":2,"eval_duration":91026200}
+
+========================================
+SYMBOL: GOOGL
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: How Google Plans to Rebuild Trust with Publishers as AI Reduces Web Traffic 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:48:14.9831143Z","response":"Negative","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,16861,3692,236798,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,2088,6475,48139,531,1276,4907,12267,607,57792,618,12498,201217,6940,39657,236743,106,107,105,4368,107,63702],"total_duration":388632600,"load_duration":98765700,"prompt_eval_count":59,"prompt_eval_duration":250028600,"eval_count":2,"eval_duration":37487200}
+
+========================================
+SYMBOL: GOOGL
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: How Google Plans to Rebuild Trust with Publishers as AI Reduces Web Traffic 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:48:19.6260291Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,15812,29530,5495,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,2370,6950,2409,1277,1066,16562,2446,13917,1163,20443,1172,1158,16875,4458,29486,2145,7121,9302,22301,29473,4,29473,3915,1097,2418],"total_duration":2623728800,"load_duration":25766000,"prompt_eval_count":63,"prompt_eval_duration":2070473700,"eval_count":4,"eval_duration":526263500}
+
+========================================
+SYMBOL: GOOGL
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: How Google Plans to Rebuild Trust with Publishers as AI Reduces Web Traffic 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:48:22.6347409Z","response":"Positive","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,12890,46,3910,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,2650,5195,35695,311,1050,5957,17236,449,72714,439,15592,3816,63371,5000,38081,220,128009,128006,78191,128007,271,36590],"total_duration":969953000,"load_duration":60543100,"prompt_eval_count":76,"prompt_eval_duration":816253200,"eval_count":2,"eval_duration":92637700}
+
+========================================
+SYMBOL: GOOGL
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google releases new AI video generation model worldwide 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:48:24.9857112Z","response":"Positive","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,16861,3692,236798,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,6475,25282,861,12498,2948,8299,2028,15454,236743,106,107,105,4368,107,48084],"total_duration":325076400,"load_duration":105589400,"prompt_eval_count":53,"prompt_eval_duration":179308600,"eval_count":2,"eval_duration":39644400}
+
+========================================
+SYMBOL: GOOGL
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google releases new AI video generation model worldwide 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:48:28.6769543Z","response":" Positive","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,15812,29530,5495,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,6950,22214,1401,16875,4566,9110,2997,16013,29473,4,29473,8970,3236],"total_duration":1660716600,"load_duration":25450600,"prompt_eval_count":52,"prompt_eval_duration":1231886000,"eval_count":3,"eval_duration":402092500}
+
+========================================
+SYMBOL: GOOGL
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock GOOGL. Respond with one word: positive, negative, or neutral.
+News: Google releases new AI video generation model worldwide 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:48:31.5261712Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,12890,46,3910,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,5195,19786,502,15592,2835,9659,1646,15603,220,128009,128006,78191,128007,271,88007],"total_duration":822342300,"load_duration":54493000,"prompt_eval_count":69,"prompt_eval_duration":667971700,"eval_count":2,"eval_duration":98832900}
+
+========================================
+SYMBOL: ISRG
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock ISRG. Respond with one word: positive, negative, or neutral.
+News: Benjamin Graham Detailed Fundamental Analysis - ISRG 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:48:34.1598731Z","response":"neutral","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,156539,236823,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,32178,30904,48756,71044,13768,753,156539,236823,236743,106,107,105,4368,107,45258],"total_duration":528461600,"load_duration":118991700,"prompt_eval_count":52,"prompt_eval_duration":369453300,"eval_count":2,"eval_duration":39509000}
+
+========================================
+SYMBOL: ISRG
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock ISRG. Respond with one word: positive, negative, or neutral.
+News: Benjamin Graham Detailed Fundamental Analysis - ISRG 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:48:39.9746097Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,4164,18582,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,19026,18731,5926,3152,11819,2454,1050,20210,1155,4164,18582,29473,4,29473,3915,1097,2418],"total_duration":3784137600,"load_duration":28889200,"prompt_eval_count":54,"prompt_eval_duration":3205349300,"eval_count":4,"eval_duration":548219400}
+
+========================================
+SYMBOL: ISRG
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock ISRG. Respond with one word: positive, negative, or neutral.
+News: Benjamin Graham Detailed Fundamental Analysis - ISRG 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:48:43.4066149Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,3507,33460,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,30411,26181,63765,92539,18825,482,3507,33460,220,128009,128006,78191,128007,271,88007],"total_duration":1406950100,"load_duration":67895900,"prompt_eval_count":68,"prompt_eval_duration":1245986500,"eval_count":2,"eval_duration":91494800}
+
+========================================
+SYMBOL: ISRG
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock ISRG. Respond with one word: positive, negative, or neutral.
+News: Intuitive Surgical's 23% CAGR outpaced the company's earnings growth over the same five-year period 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:48:46.0139029Z","response":"Positive\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,156539,236823,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,163850,2407,100407,236789,236751,236743,236778,236800,236908,146106,855,53759,506,2544,236789,236751,17785,3877,1024,506,1638,3493,236772,3704,2846,236743,106,107,105,4368,107,48084,107],"total_duration":570898600,"load_duration":126639700,"prompt_eval_count":69,"prompt_eval_duration":370005600,"eval_count":3,"eval_duration":73748100}
+
+========================================
+SYMBOL: ISRG
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock ISRG. Respond with one word: positive, negative, or neutral.
+News: Intuitive Surgical's 23% CAGR outpaced the company's earnings growth over the same five-year period 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:48:56.3012252Z","response":" Neutral (There is no clear sentiment about the future in this news. The statement discusses past performance.)","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,4164,18582,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,5434,29486,3236,1086,3589,1513,29510,29481,29473,29518,29538,29591,1102,3145,29522,1343,29488,3469,1040,3264,29510,29481,25199,6825,1522,1040,2116,4127,29501,5163,3984,29473,4,29473,3915,1097,2418,1093,6584,1117,1476,3849,22558,1452,1040,4205,1065,1224,4999,29491,1183,7019,4110,1042,3377,5165,3742],"total_duration":8258904500,"load_duration":30796000,"prompt_eval_count":74,"prompt_eval_duration":3330332700,"eval_count":24,"eval_duration":4896415300}
+
+========================================
+SYMBOL: ISRG
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock ISRG. Respond with one word: positive, negative, or neutral.
+News: Intuitive Surgical's 23% CAGR outpaced the company's earnings growth over the same five-year period 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:48:59.8075227Z","response":"Neutral.","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,3507,33460,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,1357,35251,71212,596,220,1419,4,356,82256,704,69652,279,2883,596,24608,6650,927,279,1890,4330,4771,4261,220,128009,128006,78191,128007,271,88007,13],"total_duration":1481061900,"load_duration":49064200,"prompt_eval_count":82,"prompt_eval_duration":1208005000,"eval_count":3,"eval_duration":222768100}
+
+========================================
+SYMBOL: ISRG
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock ISRG. Respond with one word: positive, negative, or neutral.
+News: Intuitive Surgical (NasdaqGS:ISRG) Expands Da Vinci Surgical System Presence In European Market 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:49:02.3197476Z","response":"Neutral","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,156539,236823,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,163850,2407,100407,568,233051,15683,236787,2249,37278,236768,13642,2964,11485,101654,100407,1804,93384,799,6693,12726,236743,106,107,105,4368,107,20809],"total_duration":478092300,"load_duration":129140400,"prompt_eval_count":64,"prompt_eval_duration":311505500,"eval_count":2,"eval_duration":36938200}
+
+========================================
+SYMBOL: ISRG
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock ISRG. Respond with one word: positive, negative, or neutral.
+News: Intuitive Surgical (NasdaqGS:ISRG) Expands Da Vinci Surgical System Presence In European Market 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:49:07.6829562Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,4164,18582,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,5434,29486,3236,1086,3589,1513,1093,29527,1061,2473,29543,18348,29515,2619,18582,29499,17558,3119,9334,13438,1957,1086,3589,1513,2903,4749,1404,1328,7160,12411,29473,4,29473,3915,1097,2418],"total_duration":3343133300,"load_duration":19925600,"prompt_eval_count":73,"prompt_eval_duration":2684979900,"eval_count":4,"eval_duration":636976700}
+
+========================================
+SYMBOL: ISRG
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock ISRG. Respond with one word: positive, negative, or neutral.
+News: Intuitive Surgical (NasdaqGS:ISRG) Expands Da Vinci Surgical System Presence In European Market 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:49:10.8476697Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,3507,33460,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,1357,35251,71212,320,45,300,74307,16929,25,1669,33460,8,7943,2914,14569,97866,71212,744,79723,763,7665,8152,220,128009,128006,78191,128007,271,88007],"total_duration":1133055300,"load_duration":70792300,"prompt_eval_count":82,"prompt_eval_duration":962060600,"eval_count":2,"eval_duration":99602700}
+
+========================================
+SYMBOL: ISRG
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock ISRG. Respond with one word: positive, negative, or neutral.
+News: Can ISRG Maintain Robotics Edge Amid Rising Rivalry & Budget Strain? 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:49:13.3705586Z","response":"Negative\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,156539,236823,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,3199,156539,236823,75133,117929,20090,124148,66399,164754,824,833,29125,109679,236881,236743,106,107,105,4368,107,63702,107],"total_duration":495009700,"load_duration":122644000,"prompt_eval_count":58,"prompt_eval_duration":298676500,"eval_count":3,"eval_duration":73180600}
+
+========================================
+SYMBOL: ISRG
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock ISRG. Respond with one word: positive, negative, or neutral.
+News: Can ISRG Maintain Robotics Edge Amid Rising Rivalry & Budget Strain? 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:49:18.4836208Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,4164,18582,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,3186,4164,18582,1119,2458,1194,6544,1090,1831,23240,3508,1081,1167,3747,1167,3866,1411,1335,7863,1295,4606,1194,29572,29473,4,29473,3915,1097,2418],"total_duration":3091448400,"load_duration":11567500,"prompt_eval_count":66,"prompt_eval_duration":2536421500,"eval_count":4,"eval_duration":542363600}
+
+========================================
+SYMBOL: ISRG
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock ISRG. Respond with one word: positive, negative, or neutral.
+News: Can ISRG Maintain Robotics Edge Amid Rising Rivalry & Budget Strain? 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:49:21.6279089Z","response":"Negative.","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,3507,33460,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,3053,3507,33460,87477,77564,10564,89789,49987,432,4023,894,612,28368,4610,467,30,220,128009,128006,78191,128007,271,39589,13],"total_duration":1094978300,"load_duration":82272500,"prompt_eval_count":76,"prompt_eval_duration":829832700,"eval_count":3,"eval_duration":181110000}
+
+========================================
+SYMBOL: RNW
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock RNW. Respond with one word: positive, negative, or neutral.
+News: ReNew Energy Receives Acquisition Offer from Consortium 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:49:24.3480125Z","response":"Neutral","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,47457,236824,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,1276,4199,9904,14832,2031,85903,46816,699,93582,236743,106,107,105,4368,107,20809],"total_duration":601214200,"load_duration":122400300,"prompt_eval_count":53,"prompt_eval_duration":433869800,"eval_count":2,"eval_duration":43632700}
+
+========================================
+SYMBOL: RNW
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock RNW. Respond with one word: positive, negative, or neutral.
+News: ReNew Energy Receives Acquisition Offer from Consortium 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:49:30.8964057Z","response":" Positive","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,1167,29527,29548,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,2066,3740,15038,2066,1126,2539,5636,11993,1453,4752,1031,1245,6272,1187,2730,29473,4,29473,8970,3236],"total_duration":4527739900,"load_duration":9617900,"prompt_eval_count":59,"prompt_eval_duration":4015878800,"eval_count":3,"eval_duration":501707200}
+
+========================================
+SYMBOL: RNW
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock RNW. Respond with one word: positive, negative, or neutral.
+News: ReNew Energy Receives Acquisition Offer from Consortium 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:49:34.3236773Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,46916,54,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,1050,3648,12634,61396,1924,73471,25510,505,73547,220,128009,128006,78191,128007,271,88007],"total_duration":1388374200,"load_duration":51529400,"prompt_eval_count":69,"prompt_eval_duration":1245249200,"eval_count":2,"eval_duration":90381800}
+
+========================================
+SYMBOL: PANW
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock PANW. Respond with one word: positive, negative, or neutral.
+News: Validea Detailed Fundamental Analysis - PANW 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:49:37.1052218Z","response":"Neutral","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,56649,236824,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,3858,23190,48756,71044,13768,753,56649,236824,236743,106,107,105,4368,107,20809],"total_duration":596676900,"load_duration":120952400,"prompt_eval_count":52,"prompt_eval_duration":435371800,"eval_count":2,"eval_duration":39805600}
+
+========================================
+SYMBOL: PANW
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock PANW. Respond with one word: positive, negative, or neutral.
+News: Validea Detailed Fundamental Analysis - PANW 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:49:47.5734188Z","response":" Neutral (as it presents a detailed analysis but does not offer a clear sentiment about the stock)","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,1135,2019,29548,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,4242,29134,5926,3152,11819,2454,1050,20210,1155,1135,2019,29548,29473,4,29473,3915,1097,2418,1093,1061,1146,16658,1032,11305,6411,1330,2003,1227,3173,1032,3849,22558,1452,1040,6524,29499],"total_duration":8437842100,"load_duration":10359400,"prompt_eval_count":56,"prompt_eval_duration":3613466500,"eval_count":22,"eval_duration":4813495000}
+
+========================================
+SYMBOL: PANW
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock PANW. Respond with one word: positive, negative, or neutral.
+News: Validea Detailed Fundamental Analysis - PANW 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:49:50.9472704Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,73381,54,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,4196,42877,63765,92539,18825,482,73381,54,220,128009,128006,78191,128007,271,88007],"total_duration":1344780100,"load_duration":56802300,"prompt_eval_count":68,"prompt_eval_duration":1192855400,"eval_count":2,"eval_duration":93731000}
+
+========================================
+SYMBOL: PANW
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock PANW. Respond with one word: positive, negative, or neutral.
+News: Thursday Sector Leaders: Technology & Communications, Utilities 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:49:53.343214Z","response":"Neutral","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,56649,236824,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,9853,47026,27557,236787,10856,833,26591,236764,75871,236743,106,107,105,4368,107,20809],"total_duration":373276000,"load_duration":115203100,"prompt_eval_count":53,"prompt_eval_duration":220560500,"eval_count":2,"eval_duration":36916600}
+
+========================================
+SYMBOL: PANW
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock PANW. Respond with one word: positive, negative, or neutral.
+News: Thursday Sector Leaders: Technology & Communications, Utilities 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:49:57.3334447Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,1135,2019,29548,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,11751,1086,4544,10929,1172,29515,13279,1335,26909,29493,16925,1986,29473,4,29473,3915,1097,2418],"total_duration":1958404300,"load_duration":22487700,"prompt_eval_count":56,"prompt_eval_duration":1407955700,"eval_count":4,"eval_duration":527354400}
+
+========================================
+SYMBOL: PANW
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock PANW. Respond with one word: positive, negative, or neutral.
+News: Thursday Sector Leaders: Technology & Communications, Utilities 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:50:00.1426588Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,73381,54,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,7950,41824,28986,25,12053,612,26545,11,36094,220,128009,128006,78191,128007,271,88007],"total_duration":774412100,"load_duration":75658300,"prompt_eval_count":69,"prompt_eval_duration":605826700,"eval_count":2,"eval_duration":91356000}
+
+========================================
+SYMBOL: PANW
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock PANW. Respond with one word: positive, negative, or neutral.
+News: Is It Too Late to Buy Palo Alto Networks Stock? 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:50:02.56963Z","response":"Negative\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,56649,236824,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,2375,1030,34746,35588,531,17151,93879,53898,42879,13827,236881,236743,106,107,105,4368,107,63702,107],"total_duration":400551200,"load_duration":116065100,"prompt_eval_count":55,"prompt_eval_duration":210987500,"eval_count":3,"eval_duration":72993600}
+
+========================================
+SYMBOL: PANW
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock PANW. Respond with one word: positive, negative, or neutral.
+News: Is It Too Late to Buy Palo Alto Networks Stock? 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:50:13.6876543Z","response":" Neutral (The headline itself does not convey a clear positive or negative sentiment, but it is asking a question, which implies some level of uncertainty or caution.)","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,1135,2019,29548,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,2459,1429,17369,24716,1066,15592,4955,29477,1744,1300,10256,29481,12316,29572,29473,4,29473,3915,1097,2418,1093,1782,2103,1849,4605,2003,1227,19655,1032,3849,6046,1210,7855,22558,29493,1330,1146,1117,7969,1032,3764,29493,1458,12918,1509,2952,1070,18878,1210,27537,3742],"total_duration":9089290200,"load_duration":13386800,"prompt_eval_count":58,"prompt_eval_duration":1576619900,"eval_count":35,"eval_duration":7498640500}
+
+========================================
+SYMBOL: PANW
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock PANW. Respond with one word: positive, negative, or neutral.
+News: Is It Too Late to Buy Palo Alto Networks Stock? 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:50:16.5280897Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,73381,54,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,2209,1102,25619,36931,311,11544,85251,54370,39810,12937,30,220,128009,128006,78191,128007,271,88007],"total_duration":818372000,"load_duration":53278500,"prompt_eval_count":71,"prompt_eval_duration":672604200,"eval_count":2,"eval_duration":91995800}
+
+========================================
+SYMBOL: PANW
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock PANW. Respond with one word: positive, negative, or neutral.
+News: SoftBank's Masayoshi Son Lived Life Like 'Benjamin Button' — Nikesh Arora Says He Took Every Risk His Mother Warned Him About And Struck Gold With Alibaba, ARM 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:50:19.3095089Z","response":"Neutral","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,56649,236824,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,11830,24101,236789,236751,10097,571,33809,10333,639,2476,8586,9929,756,124821,13796,236789,2192,20630,13068,173590,73511,1293,111740,7685,32180,4923,22677,92843,524,20633,11968,1452,842,12099,7707,3227,118348,236764,63176,236743,106,107,105,4368,107,20809],"total_duration":747481500,"load_duration":122542900,"prompt_eval_count":83,"prompt_eval_duration":583612100,"eval_count":2,"eval_duration":40819900}
+
+========================================
+SYMBOL: PANW
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock PANW. Respond with one word: positive, negative, or neutral.
+News: SoftBank's Masayoshi Son Lived Life Like 'Benjamin Button' — Nikesh Arora Says He Took Every Risk His Mother Warned Him About And Struck Gold With Alibaba, ARM 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:50:34.0692576Z","response":" Neutral (The news does not provide direct sentiment about the stock PANW)","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,1135,2019,29548,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,6769,25790,29510,29481,9951,1107,28373,7947,1161,2743,6140,6178,1232,18881,29536,9023,19631,29510,1808,12720,10134,1778,4196,1086,1516,1418,1088,1368,4971,1167,3374,3122,13155,1162,2099,1054,15417,8402,1783,4606,2152,6560,3094,1744,1361,6312,29493,24312,29473,4,29473,3915,1097,2418,1093,1782,4999,2003,1227,3852,2631,22558,1452,1040,6524,1135,2019,29548,29499],"total_duration":12727388600,"load_duration":25054200,"prompt_eval_count":92,"prompt_eval_duration":7937668800,"eval_count":19,"eval_duration":4763523200}
+
+========================================
+SYMBOL: PANW
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock PANW. Respond with one word: positive, negative, or neutral.
+News: SoftBank's Masayoshi Son Lived Life Like 'Benjamin Button' — Nikesh Arora Says He Took Every Risk His Mother Warned Him About And Struck Gold With Alibaba, ARM 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:50:38.218339Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,73381,54,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,25046,26913,596,20459,352,32945,12103,445,2270,9601,9086,364,25584,26312,6739,6,2001,22300,4385,1676,6347,47559,1283,90796,7357,32388,5414,21720,68846,291,21058,10180,1628,4610,1983,7573,3161,55464,11,31586,220,128009,128006,78191,128007,271,88007],"total_duration":2123341200,"load_duration":74611400,"prompt_eval_count":100,"prompt_eval_duration":1925125800,"eval_count":2,"eval_duration":123094000}
+
+========================================
+SYMBOL: AI
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock AI. Respond with one word: positive, negative, or neutral.
+News: These Are the Smartest Growth Stocks to Invest $1,000 in Today 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:50:40.9115847Z","response":"Positive","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,12498,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,3143,9354,506,15735,598,26608,81973,531,10703,609,236770,236764,236771,236771,236771,528,10950,236743,106,107,105,4368,107,48084],"total_duration":589477200,"load_duration":101270600,"prompt_eval_count":60,"prompt_eval_duration":450941100,"eval_count":2,"eval_duration":36676300}
+
+========================================
+SYMBOL: AI
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock AI. Respond with one word: positive, negative, or neutral.
+News: These Are the Smartest Growth Stocks to Invest $1,000 in Today 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:50:48.1904607Z","response":" Positive","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,16875,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,3725,5635,1040,18053,1142,19224,1130,1430,8480,1066,12374,1197,29508,29493,29502,29502,29502,1065,9552,29473,4,29473,8970,3236],"total_duration":5245565900,"load_duration":32036400,"prompt_eval_count":61,"prompt_eval_duration":4747995700,"eval_count":3,"eval_duration":464351900}
+
+========================================
+SYMBOL: AI
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock AI. Respond with one word: positive, negative, or neutral.
+News: These Are the Smartest Growth Stocks to Invest $1,000 in Today 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:50:51.8880601Z","response":"Positive","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,15592,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,4314,8886,279,16147,478,34871,80336,311,13038,400,16,11,931,304,11450,220,128009,128006,78191,128007,271,36590],"total_duration":1671275400,"load_duration":75008200,"prompt_eval_count":74,"prompt_eval_duration":1489606700,"eval_count":2,"eval_duration":105214700}
+
+========================================
+SYMBOL: OPEN
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OPEN. Respond with one word: positive, negative, or neutral.
+News: Cerus Leads The Pack Of 3 Promising Penny Stocks 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:50:54.5943405Z","response":"Positive\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,62789,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,24996,605,121206,669,13079,5517,236743,236800,10635,3254,65244,81973,236743,106,107,105,4368,107,48084,107],"total_duration":608335300,"load_duration":106738800,"prompt_eval_count":55,"prompt_eval_duration":420757400,"eval_count":3,"eval_duration":80331900}
+
+========================================
+SYMBOL: OPEN
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OPEN. Respond with one word: positive, negative, or neutral.
+News: Cerus Leads The Pack Of 3 Promising Penny Stocks 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:51:01.572217Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,9765,1788,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,17179,1149,10929,29481,1183,12444,5297,29473,29538,13716,3747,10524,2548,1430,8480,29473,4,29473,3915,1097,2418],"total_duration":4949883500,"load_duration":12524200,"prompt_eval_count":58,"prompt_eval_duration":4221221200,"eval_count":4,"eval_duration":715029600}
+
+========================================
+SYMBOL: OPEN
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OPEN. Respond with one word: positive, negative, or neutral.
+News: Cerus Leads The Pack Of 3 Promising Penny Stocks 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:51:05.0845314Z","response":"Positive","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,30941,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,28764,355,82628,578,14114,5046,220,18,18042,3876,54015,80336,220,128009,128006,78191,128007,271,36590],"total_duration":1477513700,"load_duration":61732200,"prompt_eval_count":71,"prompt_eval_duration":1312664200,"eval_count":2,"eval_duration":102001400}
+
+========================================
+SYMBOL: OPEN
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OPEN. Respond with one word: positive, negative, or neutral.
+News: Why Opendoor Technologies Stock Swooned in June 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:51:07.4441789Z","response":"Negative","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,62789,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,8922,17357,4362,504,29287,13827,180752,23446,528,5142,236743,106,107,105,4368,107,63702],"total_duration":332567400,"load_duration":109827500,"prompt_eval_count":53,"prompt_eval_duration":185789300,"eval_count":2,"eval_duration":36499900}
+
+========================================
+SYMBOL: OPEN
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OPEN. Respond with one word: positive, negative, or neutral.
+News: Why Opendoor Technologies Stock Swooned in June 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:51:11.2644597Z","response":" Negative","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,9765,1788,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,5083,1219,2461,11787,7540,9544,12316,1086,1577,13648,1065,4980,29473,4,29473,12933,1965],"total_duration":1780486400,"load_duration":25285200,"prompt_eval_count":55,"prompt_eval_duration":1385407700,"eval_count":3,"eval_duration":368684900}
+
+========================================
+SYMBOL: OPEN
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OPEN. Respond with one word: positive, negative, or neutral.
+News: Why Opendoor Technologies Stock Swooned in June 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:51:14.1191937Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,30941,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,8595,507,3825,10922,25579,12937,328,1146,20262,304,5651,220,128009,128006,78191,128007,271,88007],"total_duration":819665700,"load_duration":65507900,"prompt_eval_count":70,"prompt_eval_duration":661760300,"eval_count":2,"eval_duration":90819300}
+
+========================================
+SYMBOL: CDNS
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock CDNS. Respond with one word: positive, negative, or neutral.
+News: Validea Detailed Fundamental Analysis - CDNS 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:51:17.1670976Z","response":"Neutral","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,8080,6510,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,3858,23190,48756,71044,13768,753,8080,6510,236743,106,107,105,4368,107,20809],"total_duration":518676700,"load_duration":116267700,"prompt_eval_count":52,"prompt_eval_duration":363824000,"eval_count":2,"eval_duration":37442100}
+
+========================================
+SYMBOL: CDNS
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock CDNS. Respond with one word: positive, negative, or neutral.
+News: Validea Detailed Fundamental Analysis - CDNS 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:51:23.3344548Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,8972,7784,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,4242,29134,5926,3152,11819,2454,1050,20210,1155,8972,7784,29473,4,29473,3915,1097,2418],"total_duration":4132700400,"load_duration":10175200,"prompt_eval_count":54,"prompt_eval_duration":3426326900,"eval_count":4,"eval_duration":694853800}
+
+========================================
+SYMBOL: CDNS
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock CDNS. Respond with one word: positive, negative, or neutral.
+News: Validea Detailed Fundamental Analysis - CDNS 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:51:26.753979Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,11325,2507,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,4196,42877,63765,92539,18825,482,11325,2507,220,128009,128006,78191,128007,271,88007],"total_duration":1386850900,"load_duration":66462100,"prompt_eval_count":68,"prompt_eval_duration":1216497900,"eval_count":2,"eval_duration":103385200}
+
+========================================
+SYMBOL: CDNS
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock CDNS. Respond with one word: positive, negative, or neutral.
+News: How Should You Play CDNS Stock as US Lifts Export Restrictions on Cadence Design Systems? 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:51:29.3224346Z","response":"Neutral","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,8080,6510,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,2088,18975,1599,9274,8080,6510,13827,618,2590,639,10018,43165,130726,580,30238,819,7803,13000,236881,236743,106,107,105,4368,107,20809],"total_duration":544292800,"load_duration":115165500,"prompt_eval_count":63,"prompt_eval_duration":374515500,"eval_count":2,"eval_duration":54005500}
+
+========================================
+SYMBOL: CDNS
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock CDNS. Respond with one word: positive, negative, or neutral.
+News: How Should You Play CDNS Stock as US Lifts Export Restrictions on Cadence Design Systems? 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:51:35.785409Z","response":" Neutral","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,8972,7784,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,2370,11702,1763,7647,8972,7784,12316,1158,2991,1161,9805,2297,1251,10344,7153,1362,1124,22481,1404,9416,18027,29572,29473,4,29473,3915,1097,2418],"total_duration":4444740300,"load_duration":18911600,"prompt_eval_count":65,"prompt_eval_duration":3593976300,"eval_count":4,"eval_duration":831310100}
+
+========================================
+SYMBOL: CDNS
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock CDNS. Respond with one word: positive, negative, or neutral.
+News: How Should You Play CDNS Stock as US Lifts Export Restrictions on Cadence Design Systems? 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:51:38.965871Z","response":"Positive","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,11325,2507,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,2650,12540,1472,7199,11325,2507,12937,439,2326,53535,82,22981,93075,389,33160,768,7127,15264,30,220,128009,128006,78191,128007,271,36590],"total_duration":1139628600,"load_duration":75762600,"prompt_eval_count":79,"prompt_eval_duration":965333000,"eval_count":2,"eval_duration":96528200}
+
+========================================
+SYMBOL: CDNS
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock CDNS. Respond with one word: positive, negative, or neutral.
+News: Cadence Design Systems, Synopsys Shares Rise As US Lifts Chip Design Restrictions On China 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:51:41.5455129Z","response":"Positive\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,8080,6510,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,30238,819,7803,13000,236764,25863,3667,986,85214,53474,1773,2590,639,10018,45180,7803,130726,2154,5818,236743,106,107,105,4368,107,48084,107],"total_duration":553315900,"load_duration":158485600,"prompt_eval_count":63,"prompt_eval_duration":316677700,"eval_count":3,"eval_duration":77115500}
+
+========================================
+SYMBOL: CDNS
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock CDNS. Respond with one word: positive, negative, or neutral.
+News: Cadence Design Systems, Synopsys Shares Rise As US Lifts Chip Design Restrictions On China 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:51:46.9441039Z","response":" Positive","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,8972,7784,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,22481,1404,9416,18027,29493,18960,3367,1614,2063,5353,1167,1632,1904,2991,1161,9805,1457,1276,9416,10344,7153,1362,2186,5845,29473,4,29473,8970,3236],"total_duration":3361187900,"load_duration":25137700,"prompt_eval_count":67,"prompt_eval_duration":2854669300,"eval_count":3,"eval_duration":480167200}
+
+========================================
+SYMBOL: CDNS
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock CDNS. Respond with one word: positive, negative, or neutral.
+News: Cadence Design Systems, Synopsys Shares Rise As US Lifts Chip Design Restrictions On China 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:51:50.0984415Z","response":"Positive","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,11325,2507,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,33160,768,7127,15264,11,24028,3806,1065,45285,43777,1666,2326,53535,82,32013,7127,93075,1952,5734,220,128009,128006,78191,128007,271,36590],"total_duration":1131517400,"load_duration":84823900,"prompt_eval_count":79,"prompt_eval_duration":953920000,"eval_count":2,"eval_duration":92773500}
+
+========================================
+SYMBOL: CDNS
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock CDNS. Respond with one word: positive, negative, or neutral.
+News: This Is the Best Vanguard ETF to Buy Right Now, and It's Not Even Close 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:51:52.5884235Z","response":"Positive","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,8080,6510,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,1174,2375,506,8890,97757,78165,531,17151,12488,4224,236764,532,1030,236789,236751,3790,7712,17016,236743,106,107,105,4368,107,48084],"total_duration":457392300,"load_duration":128474900,"prompt_eval_count":62,"prompt_eval_duration":285773800,"eval_count":2,"eval_duration":40970900}
+
+========================================
+SYMBOL: CDNS
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock CDNS. Respond with one word: positive, negative, or neutral.
+News: This Is the Best Vanguard ETF to Buy Right Now, and It's Not Even Close 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:51:57.4488958Z","response":" Positive","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,8972,7784,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,1619,2459,1040,6238,1318,3142,1256,1181,13120,1066,15592,10322,3729,29493,1072,1429,29510,29481,3048,4895,19305,29473,4,29473,8970,3236],"total_duration":2820479200,"load_duration":22946100,"prompt_eval_count":64,"prompt_eval_duration":2339423200,"eval_count":3,"eval_duration":457582600}
+
+========================================
+SYMBOL: CDNS
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock CDNS. Respond with one word: positive, negative, or neutral.
+News: This Is the Best Vanguard ETF to Buy Right Now, and It's Not Even Close 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:52:00.5788745Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,11325,2507,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,1115,2209,279,7252,76921,54163,311,11544,10291,4800,11,323,1102,596,2876,7570,13330,220,128009,128006,78191,128007,271,88007],"total_duration":1091367300,"load_duration":75474900,"prompt_eval_count":77,"prompt_eval_duration":921185000,"eval_count":2,"eval_duration":93664800}
+
+========================================
+SYMBOL: IBIT
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock IBIT. Respond with one word: positive, negative, or neutral.
+News: Bitcoin: For Volatile IBIT ETF, Employ A Sell Strategy For Income 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:52:03.5863355Z","response":"Negative\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,564,24515,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,24242,236787,1701,6285,17127,564,24515,78165,236764,21454,562,55409,34428,1701,30521,236743,106,107,105,4368,107,63702,107],"total_duration":679448400,"load_duration":117480500,"prompt_eval_count":59,"prompt_eval_duration":488485500,"eval_count":3,"eval_duration":72948500}
+
+========================================
+SYMBOL: IBIT
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock IBIT. Respond with one word: positive, negative, or neutral.
+News: Bitcoin: For Volatile IBIT ETF, Employ A Sell Strategy For Income 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:52:10.7742979Z","response":" Negative","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,1083,8938,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,23206,29515,2031,6168,14259,1083,8938,1181,13120,29493,3697,2961,1098,1086,1247,4606,5935,2031,1328,4983,29473,4,29473,12933,1965],"total_duration":5161507200,"load_duration":27746000,"prompt_eval_count":63,"prompt_eval_duration":4652939400,"eval_count":3,"eval_duration":479562900}
+
+========================================
+SYMBOL: IBIT
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock IBIT. Respond with one word: positive, negative, or neutral.
+News: Bitcoin: For Volatile IBIT ETF, Employ A Sell Strategy For Income 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:52:14.5326511Z","response":"Negative","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,12373,964,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,13428,25,1789,11119,9187,12373,964,54163,11,21445,362,43163,28845,1789,33620,220,128009,128006,78191,128007,271,39589],"total_duration":1718789600,"load_duration":59730200,"prompt_eval_count":75,"prompt_eval_duration":1549140000,"eval_count":2,"eval_duration":108687400}
+
+========================================
+SYMBOL: IBIT
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock IBIT. Respond with one word: positive, negative, or neutral.
+News: BlackRock’s Bitcoin ETF Generating More Revenue Than its Flagship S&P 500 Fund 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:52:17.0621637Z","response":"Negative\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,564,24515,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,5561,30392,236858,236751,24242,78165,124857,4643,34607,52561,1061,28733,5976,555,236880,236791,236743,236810,236771,236771,9642,236743,106,107,105,4368,107,63702,107],"total_duration":500818600,"load_duration":96892800,"prompt_eval_count":65,"prompt_eval_duration":323846800,"eval_count":3,"eval_duration":79383100}
+
+========================================
+SYMBOL: IBIT
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock IBIT. Respond with one word: positive, negative, or neutral.
+News: BlackRock’s Bitcoin ETF Generating More Revenue Than its Flagship S&P 500 Fund 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:52:22.4930684Z","response":" Positive","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,1083,8938,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,5545,29522,1397,29577,29481,23206,1181,13120,3534,1845,4532,5143,25297,1310,1044,1639,25924,5528,1086,29568,29521,29473,29550,29502,29502,11819,29473,4,29473,8970,3236],"total_duration":3391526800,"load_duration":30912000,"prompt_eval_count":69,"prompt_eval_duration":2896337200,"eval_count":3,"eval_duration":463267900}
+
+========================================
+SYMBOL: IBIT
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock IBIT. Respond with one word: positive, negative, or neutral.
+News: BlackRock’s Bitcoin ETF Generating More Revenue Than its Flagship S&P 500 Fund 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:52:25.5584906Z","response":"Negative","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,12373,964,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,5348,36152,753,13428,54163,97554,4497,38493,34776,1202,23497,5383,328,43945,220,2636,13492,220,128009,128006,78191,128007,271,39589],"total_duration":1032166200,"load_duration":57259500,"prompt_eval_count":77,"prompt_eval_duration":883420800,"eval_count":2,"eval_duration":89872400}
+
+========================================
+SYMBOL: IBIT
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock IBIT. Respond with one word: positive, negative, or neutral.
+News: Beat Holdings Reports Valuation Gain on Bitcoin ETF Holdings 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:52:27.9416876Z","response":"Neutral","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,564,24515,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,28057,53234,27708,141993,80831,580,24242,78165,53234,236743,106,107,105,4368,107,20809],"total_duration":351968800,"load_duration":121481000,"prompt_eval_count":53,"prompt_eval_duration":191547600,"eval_count":2,"eval_duration":38220800}
+
+========================================
+SYMBOL: IBIT
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock IBIT. Respond with one word: positive, negative, or neutral.
+News: Beat Holdings Reports Valuation Gain on Bitcoin ETF Holdings 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:52:32.1288911Z","response":" Positive","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,1083,8938,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,18386,16728,1510,2066,3497,4242,10991,1188,1194,1124,23206,1181,13120,16728,1510,29473,4,29473,8970,3236],"total_duration":2160712500,"load_duration":10686200,"prompt_eval_count":58,"prompt_eval_duration":1754278400,"eval_count":3,"eval_duration":394679000}
+
+========================================
+SYMBOL: IBIT
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock IBIT. Respond with one word: positive, negative, or neutral.
+News: Beat Holdings Reports Valuation Gain on Bitcoin ETF Holdings 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:52:34.9244252Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,12373,964,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,27894,54642,29140,4196,4090,50809,389,13428,54163,54642,220,128009,128006,78191,128007,271,88007],"total_duration":759230800,"load_duration":55447900,"prompt_eval_count":70,"prompt_eval_duration":610617500,"eval_count":2,"eval_duration":92657800}
+
+========================================
+SYMBOL: OKLO
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OKLO. Respond with one word: positive, negative, or neutral.
+News: Nuclear Startup Hits All-Time High On Government Deal But Falls Late For This Reason 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:52:37.9050173Z","response":"Negative\n","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,16119,13062,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,16915,82612,103084,2343,236772,2866,4819,2154,6110,37936,2024,23979,35588,1701,1174,44191,236743,106,107,105,4368,107,63702,107],"total_duration":730826700,"load_duration":123168300,"prompt_eval_count":60,"prompt_eval_duration":531925700,"eval_count":3,"eval_duration":75226000}
+
+========================================
+SYMBOL: OKLO
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OKLO. Respond with one word: positive, negative, or neutral.
+News: Nuclear Startup Hits All-Time High On Government Deal But Falls Late For This Reason 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:52:47.5027473Z","response":" Negative","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,12974,2531,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,1186,2253,6363,7811,1483,1150,1814,2450,29501,2866,5324,2186,10482,28502,1860,25306,24716,2031,1619,2066,2180,29473,4,29473,12933,1965],"total_duration":7571293000,"load_duration":9601100,"prompt_eval_count":64,"prompt_eval_duration":6841024700,"eval_count":3,"eval_duration":720094100}
+
+========================================
+SYMBOL: OKLO
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OKLO. Respond with one word: positive, negative, or neutral.
+News: Nuclear Startup Hits All-Time High On Government Deal But Falls Late For This Reason 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:52:51.8072719Z","response":"Neutral","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,10619,1623,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,38544,39514,54751,2052,55585,5234,1952,10423,27359,2030,30743,36931,1789,1115,27857,220,128009,128006,78191,128007,271,88007],"total_duration":2280718400,"load_duration":50025000,"prompt_eval_count":75,"prompt_eval_duration":2110087400,"eval_count":2,"eval_duration":119605100}
+
+========================================
+SYMBOL: OKLO
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OKLO. Respond with one word: positive, negative, or neutral.
+News: GE Vernova, Other Power Stocks Weigh on the S&P 500 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:52:54.3052571Z","response":"Negative","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,16119,13062,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,27133,41774,6636,236764,7067,7338,81973,163065,580,506,555,236880,236791,236743,236810,236771,236771,236743,106,107,105,4368,107,63702],"total_duration":462572700,"load_duration":121791700,"prompt_eval_count":61,"prompt_eval_duration":299144600,"eval_count":2,"eval_duration":38355900}
+
+========================================
+SYMBOL: OKLO
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OKLO. Respond with one word: positive, negative, or neutral.
+News: GE Vernova, Other Power Stocks Weigh on the S&P 500 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:52:59.4412392Z","response":" Negative","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,12974,2531,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,1188,29517,27569,6161,29493,6067,9210,1430,8480,1584,1724,1124,1040,1086,29568,29521,29473,29550,29502,29502,29473,4,29473,12933,1965],"total_duration":3113846200,"load_duration":26100200,"prompt_eval_count":63,"prompt_eval_duration":2584474100,"eval_count":3,"eval_duration":502027100}
+
+========================================
+SYMBOL: OKLO
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OKLO. Respond with one word: positive, negative, or neutral.
+News: GE Vernova, Other Power Stocks Weigh on the S&P 500 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:53:02.6434874Z","response":"Neutral.","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,10619,1623,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,30957,49845,12949,11,7089,7572,80336,1226,1108,389,279,328,43945,220,2636,220,128009,128006,78191,128007,271,88007,13],"total_duration":1174253300,"load_duration":64311400,"prompt_eval_count":75,"prompt_eval_duration":895573200,"eval_count":3,"eval_duration":213193600}
+
+========================================
+SYMBOL: OKLO
+MODEL: gemma3:1b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OKLO. Respond with one word: positive, negative, or neutral.
+News: Oklo Just Announced a New Nuclear Fuel Deal. Is OKLO Stock a Buy Here? 
+RESPONSE RAW:
+{"model":"gemma3:1b","created_at":"2025-07-05T21:53:05.3625194Z","response":"Positive","done":true,"done_reason":"stop","context":[105,2364,107,115863,506,2269,4668,573,27078,568,30558,236764,5676,236764,12643,236768,573,506,2862,16119,13062,236761,58025,607,886,3658,236787,4414,236764,5676,236764,653,12643,236761,107,18626,236787,12191,844,5393,223909,496,1799,16915,38039,37936,236761,2375,16119,13062,13827,496,17151,5715,236881,236743,106,107,105,4368,107,48084],"total_duration":700455400,"load_duration":151911500,"prompt_eval_count":62,"prompt_eval_duration":480451700,"eval_count":2,"eval_duration":67020600}
+
+========================================
+SYMBOL: OKLO
+MODEL: mistral:7b
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OKLO. Respond with one word: positive, negative, or neutral.
+News: Oklo Just Announced a New Nuclear Fuel Deal. Is OKLO Stock a Buy Here? 
+RESPONSE RAW:
+{"model":"mistral:7b","created_at":"2025-07-05T21:53:16.4881082Z","response":" Neutral (based on provided information, no specific sentiment towards OKLO's stock is expressed in the news)","done":true,"done_reason":"stop","context":[3,29473,1862,9678,2142,1040,3064,4999,1122,22558,1093,1833,3236,29493,7855,29493,14982,29499,1122,1040,6524,12974,2531,29491,2760,20339,1163,1392,2475,29515,6046,29493,7855,29493,1210,14982,29491,781,26382,29515,7272,1499,3962,8071,15039,1032,2218,1186,2253,6363,1169,3777,28502,29491,2459,12974,2531,12316,1032,15592,4771,29572,29473,4,29473,3915,1097,2418,1093,6295,1124,4625,2639,29493,1476,3716,22558,5851,12974,2531,29510,29481,6524,1117,12326,1065,1040,4999,29499],"total_duration":9104116900,"load_duration":37382200,"prompt_eval_count":65,"prompt_eval_duration":3087058200,"eval_count":25,"eval_duration":5978696500}
+
+========================================
+SYMBOL: OKLO
+MODEL: llama3.2:latest
+PROMPT:
+Analyze the following news for sentiment (positive, negative, neutral) for the stock OKLO. Respond with one word: positive, negative, or neutral.
+News: Oklo Just Announced a New Nuclear Fuel Deal. Is OKLO Stock a Buy Here? 
+RESPONSE RAW:
+{"model":"llama3.2:latest","created_at":"2025-07-05T21:53:19.6363749Z","response":"Negative","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,2366,18,271,128009,128006,882,128007,271,2127,56956,279,2768,3754,369,27065,320,31587,11,8389,11,21277,8,369,279,5708,10619,1623,13,40633,449,832,3492,25,6928,11,8389,11,477,21277,627,14710,25,7777,385,4702,9489,20018,264,1561,38544,37384,27359,13,2209,10619,1623,12937,264,11544,5810,30,220,128009,128006,78191,128007,271,39589],"total_duration":1109562900,"load_duration":47809700,"prompt_eval_count":79,"prompt_eval_duration":968339900,"eval_count":2,"eval_duration":92908300}

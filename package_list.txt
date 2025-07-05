@@ -1,0 +1,13 @@
+This folder contains a .venv directory, but for portability, you should use requirements.txt and install dependencies on the Raspberry Pi using pip.
+
+Do NOT copy the .venv folder to the Pi. Only copy the following files and folders:
+
+- main.py
+- encrypt_password.py
+- config.json
+- requirements.txt
+- README.txt
+- Any CSV files you want to process (e.g., holdings_report.csv, holdings_cleaned.csv)
+
+On the Pi, run:
+pip3 install -r requirements.txt
