@@ -1,3 +1,5 @@
+
+# Core project dependencies
 robin-stocks
 pandas
 yfinance
@@ -5,3 +7,10 @@ cryptography
 numpy
 scipy
 requests
+
+# For FastAPI service
+fastapi
+uvicorn
+
+# For MySQL integration
+mysql-connector-python

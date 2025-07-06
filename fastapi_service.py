@@ -1,3 +1,31 @@
+# GET endpoint for llm_response_record table
+@app.get("/llm_responses/")
+def get_llm_responses(
+    model: Optional[str] = Query(None, description="Filter by model name"),
+    majority: Optional[str] = Query(None, description="Filter by majority sentiment (positive/negative/neutral)"),
+    limit: int = Query(100, description="Max number of records to return")
+):
+    db_config = load_db_config()
+    conn = mysql.connector.connect(**db_config)
+    cursor = conn.cursor(dictionary=True)
+    query = "SELECT * FROM llm_response_record"
+    params = []
+    filters = []
+    if model:
+        filters.append("Model = %s")
+        params.append(model)
+    if majority:
+        filters.append("Majority = %s")
+        params.append(majority)
+    if filters:
+        query += " WHERE " + " AND ".join(filters)
+    query += " LIMIT %s"
+    params.append(limit)
+    cursor.execute(query, params)
+    results = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    return {"data": results}
 from fastapi import FastAPI, Query
 from typing import Optional
 import mysql.connector
