@@ -5,6 +5,11 @@ import re
 import glob
 import os
 from datetime import datetime
+import fetch_grny_holdings
+import fetch_hdge_holdings
+import fetch_mtum_holdings
+import fetch_mmtm_holdings
+import etf_change_logger
 
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), 'output')
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -114,8 +119,82 @@ def record_etf_change(old_file, new_file, added, removed, note=None):
         else:
             f.write("Removals: None\n")
         f.write("\n")
+    # Also append structured changes to ETF-Changes.csv
+    etf_change_logger.append_etf_changes("BUZZ", added, removed, ts)
     print(f"Changes appended to {path}")
 
 if __name__ == "__main__":
+    print("\n" + "="*60)
+    print("=== BUZZ ETF Holdings Download ===")
+    print("="*60)
     fetch_buzz_holdings()
     compare_holdings()
+    
+    print("\n" + "="*60)
+    print("=== GRNY ETF Holdings Download ===")
+    print("="*60)
+    
+    try:
+        result = fetch_grny_holdings.fetch_grny_holdings()
+        
+        if result:
+            print(f"\n=== Download Completed Successfully ===")
+            print(f"File saved to: {result}")
+            
+            # Compare with previous version
+            print("\n=== Comparing GRNY Holdings ===")
+            fetch_grny_holdings.compare_holdings()
+        else:
+            print("\n=== Download Failed ===")
+            print("Trying alternative method: checking Downloads folder...")
+            result = fetch_grny_holdings.move_from_downloads_to_output()
+            
+            if result:
+                print(f"File found and moved to: {result}")
+                
+                # Compare with previous version
+                print("\n=== Comparing GRNY Holdings ===")
+                fetch_grny_holdings.compare_holdings()
+            else:
+                print("Could not find or move GRNY CSV file")
+                
+    except Exception as e:
+        print(f"Fatal error during GRNY download: {e}")
+    
+    print("\n" + "="*60)
+    print("=== HDGE ETF Holdings Download ===")
+    print("="*60)
+    
+    try:
+        fetch_hdge_holdings.fetch_hdge_holdings()
+        fetch_hdge_holdings.compare_holdings()
+    except Exception as e:
+        print(f"Fatal error during HDGE download: {e}")
+    
+    print("\n" + "="*60)
+    print("=== MTUM ETF Holdings Download ===")
+    print("="*60)
+    
+    try:
+        raw_path = fetch_mtum_holdings.download_mtum_csv()
+        if raw_path:
+            fetch_mtum_holdings.clean_mtum_df(raw_path)
+            fetch_mtum_holdings.compare_latest_vs_previous()
+    except Exception as e:
+        print(f"Fatal error during MTUM download: {e}")
+    
+    print("\n" + "="*60)
+    print("=== MMTM ETF Holdings Download ===")
+    print("="*60)
+    
+    try:
+        xlsx_path = fetch_mmtm_holdings.download_mmtm_xlsx()
+        if xlsx_path:
+            fetch_mmtm_holdings.clean_mmtm_xlsx(xlsx_path)
+            fetch_mmtm_holdings.compare_latest_previous_and_record()
+    except Exception as e:
+        print(f"Fatal error during MMTM download: {e}")
+    
+    print("\n" + "="*60)
+    print("=== All ETF Downloads Complete ===")
+    print("="*60)
