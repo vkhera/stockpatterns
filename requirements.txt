@@ -8,6 +8,24 @@ numpy
 scipy
 requests
 
+# Excel file handling
+openpyxl
+
+# Web scraping and automation
+playwright  # After install, run: python -m playwright install
+selenium
+
+# Authentication and scheduling
+pyotp
+schedule
+
+# Data visualization
+plotly
+matplotlib
+
+# ICICI Direct integration
+breeze-connect
+
 # For FastAPI service
 fastapi
 uvicorn
